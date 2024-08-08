@@ -12,25 +12,25 @@
     <span>This is styled using an element selector.</span>
 
     <!-- Class Selector -->
-    <p class="class-name">This is styled using a class selector.</p>
-    <p class="class-name">This is styled using a class selector.</p>
+    <p class="intro-paragraphs">This is styled using a class selector.</p>
+    <p class="intro-paragraphs">This is styled using a class selector.</p>
 
     <!-- ID Selector -->
-    <p id="id-name">This is styled using an ID selector.</p>
+    <p id="main-heading">This is styled using an ID selector.</p>
 
     <!-- Universal Selector -->
-    <div>This is styled using a universal selector.</div>
+    <p>This is styled using a universal selector.</p>
     <p>This is also styled using a universal selector.</p>
 
     <!-- Grouping Selector -->
     <h1>Welcome to My Website</h1>
-    <p class="parag">This is a paragraph of text.</p>
+    <p class="about-content">This is a paragraph of text.</p>
     <h2>About Me</h2>
-    <p class="parag">This is another paragraph of text.</p>
+    <p class="about-content">This is another paragraph of text.</p>
     <br /><br /><br />
 
     <!-- Descendant Selector -->
-    <div class="ancestor">
+    <div class="article-container">
       <p>This is styled using a descendant selector.</p>
     </div>
 
