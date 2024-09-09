@@ -7,7 +7,6 @@
     <title>CSS Positioning</title>
     <link rel="stylesheet" href="./positioning.css" />
     <style>
-      /* Internal Styles */
       .ancestor {
         position: relative;
         border: 2px solid #000;
@@ -17,14 +16,14 @@
     </style>
   </head>
   <body>
-    <div class="ancestor">
+    <div id="ancestor">
       <div>This is the first line</div>
       <div>This is the second line</div>
-      <div class="relative">Relative Positioning</div>
-      <div class="absolute">Absolute Positioning</div>
-      <div class="fixed">Fixed Positioning</div>
+      <div id="relative">Relative Positioning</div>
+      <div id="absolute">Absolute Positioning</div>
+      <div id="fixed">Fixed Positioning</div>
     </div>
-    <div class="sticky">Sticky Positioning</div>
+    <div id="sticky">Sticky Positioning</div>
     <div style="height: 2000px;">
       Scroll down to see the sticky element in action.
     </div>
