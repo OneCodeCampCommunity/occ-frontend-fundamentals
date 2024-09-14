@@ -8,19 +8,19 @@
   </head>
   <body>
     <h2>CSS Typography</h2>
-    <div class="text-styling">This is a sample sentence.</div>
+    <div id="text-styling">This is a sample sentence.</div>
 
     <h2>CSS Text Decoration</h2>
-    <div class="text-decoration">This is another sample sentence.</div>
+    <div id="text-decoration">This is another sample sentence.</div>
 
     <h2>CSS Colors</h2>
-    <div class="colors">This is a colorful sentence.</div>
+    <div id="colors">This is a colorful sentence.</div>
 
     <h2>CSS Units of Measurement</h2>
-    <p class="absolute-unit-px">Absolute Unit (px)</p>
+    <p id="absolute-unit-px">Absolute Unit (px)</p>
     <div style="font-size: 20px;">
-      <p class="relative-unit-em">Relative Unit (em)</p>
-      <p class="relative-unit-rem">Relative Unit (rem)</p>
+      <p id="relative-unit-em">Relative Unit (em)</p>
+      <p id="relative-unit-rem">Relative Unit (rem)</p>
     </div>
   </body>
 </html>

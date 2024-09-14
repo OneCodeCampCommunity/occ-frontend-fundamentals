@@ -14,10 +14,10 @@
     <p>This is a paragraph with inline styling.</p>
 
     <!-- Internal Styling -->
-    <p class="internal-styling">This is a paragraph with internal styling.</p>
+    <p>This is a paragraph with internal styling.</p>
 
     <!-- External Styling -->
-    <p class="external-styling">This is a paragraph with external styling.</p>
+    <p>This is a paragraph with external styling.</p>
   </body>
 </html>
 ```
