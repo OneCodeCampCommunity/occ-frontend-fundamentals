@@ -9,6 +9,8 @@
       .container {
         height: 400px;
         background-color: #a8dadc;
+        position: relative;
+        overflow: hidden;
       }
 
       .flexItems {
@@ -20,6 +22,22 @@
         text-align: center;
         font-size: 40px;
       }
+
+      .cross-axis {
+        position: absolute;
+        right: 50%;
+        height: 1080px;
+        width: 6px;
+        background-color: #e63946;
+      }
+
+      .main-axis {
+        position: absolute;
+        top: 50%;
+        height: 6px;
+        width: 2160px;
+        background-color: #1d3557;
+      }
     </style>
     <link rel="stylesheet" href="./flexbox.css" />
   </head>
@@ -28,6 +46,10 @@
       <div class="flexItems flexItem1">1</div>
       <div class="flexItems flexItem2">2</div>
       <div class="flexItems flexItem3">3</div>
+
+      <!-- The axes are for discussion purposes only -->
+      <div class="axis main-axis"></div>
+      <div class="axis cross-axis"></div>
     </div>
   </body>
 </html>
