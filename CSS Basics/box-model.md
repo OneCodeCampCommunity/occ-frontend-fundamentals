@@ -2,14 +2,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Padding, Margin and Border</title>
-    <link rel="stylesheet" href="./box-model.css">
+    <link rel="stylesheet" href="./4-box-model.css" />
     <style>
-      /* Internal Styles */
       .box {
-        background-color: #02474d;
+        background-color: #ed6a5a;
         height: 100px;
         width: 150px;
         color: white;
@@ -40,12 +39,12 @@
     </div>
 
     <h2>Border</h2>
-    <div class="mix-borders">
+    <div class="box mix-borders">
       <p class="my-parag">This is a paragraph.</p>
     </div>
 
     <h2>Circle Container</h2>
-    <div class="circle-container">
+    <div class="box circle-container">
       <h2>Hi!</h2>
     </div>
   </body>
