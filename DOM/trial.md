@@ -29,18 +29,6 @@
     </div>
 
     <div>
-      <h3>Updating Element Attributes</h3>
-      <div>
-        <img
-          id="day-night-icon"
-          style="height: 50px"
-          src="https://cdn-icons-png.flaticon.com/512/624/624106.png"
-          alt="Original Image"
-        />
-      </div>
-    </div>
-
-    <div>
       <h3>Appending New Elements</h3>
       <div id="parent-element">Parent Element</div>
     </div>
