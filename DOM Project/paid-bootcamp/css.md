@@ -1,51 +1,52 @@
 ```css
 /* General Styling */
 * {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  /* Background */
-  background-image: linear-gradient(120deg, #bde0fe, #7bdff2);
-  color: rgb(0, 0, 0);
-  font-family: "Poppins", sans-serif;
+  background-color: #a8dadc;
   min-height: 100vh; /* Viewport Height */
 }
 
-/* HEADER */
-header {
-  font-size: 1.5rem; /* h1 size will be 1.5x bigger than default */
+#title {
+  font-size: 4rem;
+  text-align: center;
+  margin: 3rem;
 }
 
-header,
 form {
-  min-height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem;
 }
 
 /* FORM */
 form input,
 form button {
-  padding: 0.5rem; /* add 0.5x of the font size as padding */
-  font-size: 2rem; /* default size x2 */
+  padding: 0.5rem;
+  font-size: 2rem;
   border: none;
-  background: white;
+  background: #fffffc;
+}
+
+form input {
+  width: 350px;
 }
 
 form button {
-  color: #000000;
-  background: white;
+  background: #fffffc;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 form button:hover {
-  background: #000000;
-  color: white;
+  background: #457b9d;
+  color: #fffffc;
 }
 
 /* TODO CONTAINER */
@@ -62,8 +63,7 @@ form button:hover {
 
 .todo {
   margin: 0.5rem;
-  background: white;
-  color: black;
+  background: #fffffc;
   font-size: 1.5rem;
   display: flex;
   justify-content: space-between;
@@ -71,12 +71,16 @@ form button:hover {
   transition: all 0.5s ease;
 }
 
-.filter-todo {
-  padding: 1rem;
+.todo-item {
+  padding: 0rem 0.5rem;
 }
 
 .todo li {
   flex: 1;
+}
+
+i {
+  pointer-events: none;
 }
 
 /* BUTTONS */
@@ -94,15 +98,6 @@ form button:hover {
   background-color: #06d6a0;
 }
 
-.todo-item {
-  padding: 0rem 0.5rem;
-}
-
-.fa-trash,
-.fa-check {
-  pointer-events: none;
-}
-
 .completed {
   text-decoration: line-through;
   opacity: 0.5;
@@ -113,13 +108,7 @@ form button:hover {
   opacity: 0;
 }
 
-.completed {
-  text-decoration: line-through;
-  opacity: 0.5;
-}
-
-/* CUSTOM SELECTOR */
-/* Reset the stylings of the select/dropdown. */
+/* FILTER */
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -131,29 +120,13 @@ select {
   background-image: none;
 }
 
-/* Custom Select */
-.select {
-  margin: 1rem;
-  position: relative;
-  overflow: hidden;
-}
-
-select {
-  color: #000000;
-  font-family: "Poppins", sans-serif;
-  cursor: pointer;
+.filter-todo {
+  background-color: #457b9d;
   width: 12rem;
-}
-
-/* Arrow */
-.select::after {
-  content: "\25BC";
-  position: absolute;
-  top: 0;
-  right: 0;
+  margin: 1rem;
   padding: 1rem;
-  background: #0661ca;
+  font-size: 1.2rem;
+  color: #f1faee;
   cursor: pointer;
-  pointer-events: none;
 }
 ```
