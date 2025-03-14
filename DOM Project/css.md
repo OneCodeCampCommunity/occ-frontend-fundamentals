@@ -83,11 +83,6 @@ i {
   pointer-events: none;
 }
 
-.fall {
-  transform: translateY(8rem) rotateZ(20deg);
-  opacity: 0;
-}
-
 /* BUTTONS */
 .trash-btn,
 .complete-btn {
